@@ -1,4 +1,4 @@
-module example.com/localgofumpt
+module mymodule.local
 
 go 1.22.0
 

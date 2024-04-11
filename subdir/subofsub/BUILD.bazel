@@ -3,7 +3,7 @@ load("@rules_go//go:def.bzl", "go_library")
 go_library(
     name = "subofsub",
     srcs = ["subofsub.go"],
-    importpath = "example.com/localgofumpt/subdir/subofsub",
+    importpath = "mymodule.local/subdir/subofsub",
     visibility = ["//visibility:public"],
     deps = [
         "//subdir",

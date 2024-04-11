@@ -3,9 +3,9 @@ package subdir
 import (
 	"fmt"
 
-	"github.com/davecgh/go-spew/spew"
+	"mymodule.local/subdir/anothersubofsub"
 
-	"example.com/localgofumpt/subdir/anothersubofsub"
+	"github.com/davecgh/go-spew/spew"
 )
 
 type Subdir struct{}

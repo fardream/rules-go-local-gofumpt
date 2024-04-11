@@ -5,7 +5,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"example.com/localgofumpt/subdir"
+	"mymodule.local/subdir"
 )
 
 type SubOfSub subdir.Subdir

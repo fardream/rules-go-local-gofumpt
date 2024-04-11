@@ -1,12 +1,12 @@
 {
   "gopls": {
-    "formatting.local": "example.com/localgofumpt",
+    "formatting.local": "mymodule.local",
     "formatting.gofumpt": true,
     "build.directoryFilters": [
       "-bazel-bin",
       "-bazel-out",
       "-bazel-testlogs",
-      "-bazel-mypkg"
+      "-bazel-rules-go-local-gofumpt"
     ],
     "ui.completion.usePlaceholders": true,
     "ui.semanticTokens": true,
